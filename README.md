@@ -11,7 +11,7 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
 Architecture
 1. Google Colaboratory running Jupyter Notebook -> Host the application
 2. Numpy and Pandas -> Python Analytics libraries
-3. Matplotlib -> Display a couple graphs (It was not required, but I used it for aesthetic purposes)
+3. Matplotlib -> Display a couple graphs (It was not required, but I decided to use it for aesthetic purposes)
 
 Design and Tradeoffs
 
