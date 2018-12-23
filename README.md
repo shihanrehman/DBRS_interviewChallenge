@@ -15,13 +15,21 @@ Architecture
 
 Design and Tradeoffs
 
-Originally, when planning this project, I was intending to use Docker-Compose to setup the application as noted in the original project write-up.  However, I found an even easier solution on the way to get everything up and running - Google Colaboratory.  
+I decided to use Google Colaboratory instead of Docker-Compose as suggested in the challenge.  
 
-Docker is great - there is no doubt about that.  However, for this project, quick onboarding was highly emphasized in the project instructions so that the code can be setup and reviwed with the most minimal of instructions. With 1 executing python, script, there was not much infrasture as code, (databases, ports etc..) - what docker shines in.  
+Docker is great, but for this project, I was very limited to what I could do with docker and 'infrastructure as code'- what docker shines in - no databases, no ports, etc.. ) - only a single python file.  Getting the application up and running quickly was also highly prioritized - so I wanted to keep execution as simple as possible.  Quote - "Please consider the fact that we have to get onboarded with your project so adding good documentation for us to follow to set it up is nice to have."
 
-Furthermore, anyone, anywhere around the world, even with basic computer knowledge, can access the application and run the whole project with only mouse clicks - no need to even type or use the keyboard!  To get the project up and running with docker, you would need to have an operating system built on a linux kernal (windows users can't do anything), Docker downloaded & installed, images downloaded, and execute docker command scripts - even a command to turn docker off after reveiw. With Colaboratory, just click the X on the browser. Docker is great for a microservice-type architecture, one built with databases and possibly differnt programming languages, of which you could update a part of an application without having to update the other part.  
+Aditionally, anyone from anywhere around the world with an internet connection - even with no programing knowledge, can get the application up and running in less than a minute with just a couple mouse clicks - no need to even type or use the keyboard!  
 
-With efficieny in mind, this application is too light-weight for such purposes, although it is possbile to use Docker.  Additionally, the project seems to be very data-science heavy, and probably suitable to be read by a data scientist, who may not be as savvy with setting up docker, running, or even be able to understand it within a short time.  
+To get the project up and running with docker, one would have to have an OS built on top of a linux kernal - even with a linux system, Docker has to be downloaded & installed, images have to be downloaded, and commands need to be executed via command line to run the containers - even to shut down the containers!   Docker is great for microservices and deploying them - perhaps, an application built with differnt databases and programming languages all running independently of one another on connected ports via a docker-compose yaml file, making it with possibile to update one part without having to the update the other.   
+
+With efficieny in mind, and this project being very data-science focused, I am also guessing that a data scienctist - someone who may not be familiar wtih docker and infrastructure code, may want to have a look at it.  
+
+Google Colaboratory also has an option where you can create tabbed menus, similar to a tabbed jorurnal/phonebook, making it easy to separate the code into sections by topic. This makes visual presentation and reporting much more appealing.     
+
+I tried to keep my code as minimal and short as possible.  However, I did write some extra code - only to generate graphs and do some validation, but nothing more than what was needed for other than those purposes.    
+
+Everything is setup is one Jupyter Notebook running on the cloud.    
 
 Project Instructions:
 
