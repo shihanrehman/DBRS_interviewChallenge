@@ -14,9 +14,9 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
                          Architecture and Assumptions about Design and technology tradeoffs
 
 
-Google Colaboratory running Jupyter Notebook -> Host the application
-Numpy and Pandas -> Python Analytics libraries
-Matplotlib -> Display a couple graphs (It was not required, but I decided to use it for aesthetic purposes)
+-Google Colaboratory running Jupyter Notebook -> Host the application
+-Numpy and Pandas -> Python Analytics libraries
+-Matplotlib -> Display a couple graphs (It was not required, but I decided to use it for aesthetic purposes)
 
 I decided to use Google Colaboratory instead of Docker-Compose as suggested in the challenge.  
 
