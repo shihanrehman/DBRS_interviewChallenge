@@ -1,6 +1,12 @@
-# DBRS_interviewChallenge
+                                            # DBRS_interviewChallenge
+                                            
+                                            
+                                           Video Demo via Youtube Screencast
+                                            
+                                            
 
-Link to Application:
+                                          Instructions to Run Application
+
 
 https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scrollTo=_BQ62CizlZfF
 
@@ -8,12 +14,13 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
 2. Colab should open, click Runtime -> Run All
 3. Allow 30 seconds for all downloads and scripts to run -> Project should be running
 
-Architecture
+                         
+                         Architecture and Assumptions about Design and technology tradeoffs
+
+
 1. Google Colaboratory running Jupyter Notebook -> Host the application
 2. Numpy and Pandas -> Python Analytics libraries
 3. Matplotlib -> Display a couple graphs (It was not required, but I decided to use it for aesthetic purposes)
-
-Design and Tradeoffs
 
 I decided to use Google Colaboratory instead of Docker-Compose as suggested in the challenge.  
 
@@ -31,7 +38,9 @@ I tried to keep my code as minimal and short as possible.  However, I did write 
 
 Everything is setup is one Jupyter Notebook running on the cloud.    
 
-Project Instructions:
+                                                        
+                                                        Project Instructions
+                                                        
 
 All tasks below completed. 
 
@@ -40,4 +49,19 @@ All tasks below completed.
 -Consider only the 10 most common overall complaint types.  For the 10 most populous zip codes, how many of each of those 10 types were there in 2017?
 
 -Considering all complaint types. Which boroughs are the biggest "complainers" relative to the size of the population in 2017? Meaning, calculate a complaint-index that adjusts for population of the borough.
+
+
+                                                          Data Cleansing
+                                                          
+
+I took into account funny characters found in the data, particular in the zip codes colum, as well as a few others.
+
+
+                                                          Data Sources
+
+
+1. I was able to source the data from here, https://dev.socrata.com/foundry/data.cityofnewyork.us/fhrw-4uyv - on the site, I was able to filter data for 2017 and export it to CSV.  The CSV file, being about 1.2 GB in sized, was downloaded, zipped to 100MB, and stored in dropbox.  The application downloads the data set and unzips it upon execution.
+
+
+2. I was able to souce the population by zip code data from here: https://blog.splitwise.com/2013/09/18/the-2010-us-census-population-by-zip-code-totally-free/.  The CSV file is in the kilobytes, so it was stored into dropbox.  The application downloads is upon execution.  
 
