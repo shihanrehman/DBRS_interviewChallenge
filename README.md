@@ -17,7 +17,7 @@ Design and Tradeoffs
 
 I decided to use Google Colaboratory instead of Docker-Compose as suggested in the challenge.  
 
-Docker is great, but for this project, I was very limited to what I could do with docker and 'infrastructure as code'- what docker shines in - no databases, no ports, etc.. ) - only a single python file.  Getting the application up and running quickly was also highly prioritized - so I wanted to keep execution as simple as possible.  Quote - "Please consider the fact that we have to get onboarded with your project so adding good documentation for us to follow to set it up is nice to have."
+Docker is great, but for this project, I was very limited to what I could do with docker and 'infrastructure as code'- what docker shines in - no databases, no ports, etc.. - only a single python file.  Getting the application up and running quickly was also highly prioritized - so I wanted to keep execution as simple as possible.  Quote - "Please consider the fact that we have to get onboarded with your project so adding good documentation for us to follow to set it up is nice to have."
 
 Aditionally, anyone from anywhere around the world with an internet connection - even with no programing knowledge, can get the application up and running in less than a minute with just a couple mouse clicks - no need to even type or use the keyboard!  
 
