@@ -4,7 +4,7 @@ DBRS_interviewChallenge
                                          
   
 Link: https://www.youtube.com/watch?v=mxGAP-kRkGo
-I made a 15 minute screencast with audio and video to demo the project. This is a basic walkthrough of setting it up, inlcluding information on where data was sources to overall analysis and insights relating to the project.  I don't talk to much about the code because there are comments describing it.   I wanted to keep the video short and concise.                                                          
+I made a 15 minute screencast with audio and video to demo the project. This is a basic walkthrough of setting it up, inlcluding information on where data was sourced to overall analysis and insights relating to the project.  I don't talk to much about the code because there are comments describing it.   I wanted to keep the video short and concise.                                                          
                                                     
                                            
                                           Instructions to Run Application
@@ -12,8 +12,8 @@ I made a 15 minute screencast with audio and video to demo the project. This is 
 
 https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scrollTo=_BQ62CizlZfF
 
-1. Click on the Link
-2. Colab should open, click Runtime -> Run All
+1. Click on the Link -> You may have to sign-in with a gmail account if not signed in already.  
+2. Colaboraty should open, click Runtime -> Run All
 3. Allow 30 seconds for all downloads and scripts to run -> Project should be running
 
                          
