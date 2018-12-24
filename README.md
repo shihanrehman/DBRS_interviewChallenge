@@ -50,7 +50,7 @@ I tried to keep my code as minimal and short as possible.  However, I did write 
 Everything is setup on one Jupyter Notebook running on the cloud.    
 
                                                         
-                                                        Project Instructions
+                                                        Project Instructions 
                                                         
 
 All tasks below completed. 
