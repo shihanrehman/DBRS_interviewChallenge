@@ -68,7 +68,7 @@ All tasks below completed.
 I took into account funny characters found in the data, particular in the zip codes colum, as well as a few others.
 
 
-                                                          Data Sources 
+                                                          Data Sources  
 
 
 1. I was able to source the data from here, https://dev.socrata.com/foundry/data.cityofnewyork.us/fhrw-4uyv - on the site, I was able to filter data for 2017 and export it to CSV.  The CSV file, being about 1.2 GB in sized, was downloaded, zipped to 100MB, and stored in dropbox.  The application downloads the data set and unzips it upon execution.
