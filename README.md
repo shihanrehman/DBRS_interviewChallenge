@@ -23,9 +23,10 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
 1) Download zip file from here: https://www.dropbox.com/s/92fwq06m974vpxp/docker.zip?dl=0 and unzip to folder in directory, which should default to 'Docker', if not paste the contents of the zip file into a folder named "Docker" or whatever you want.  
 2) CD into the 'Docker' folder on terminal or whatever folder you created in step 1) 
 3) On the docker-compose file, under 'volumes', change the working directory before the ":", specify locally on your computer - can be any path, where to map the current working directory to for your Jupyter projects.  
-4) On terminal, type -> sudo docker-compose up (Wait 5 minutes for the images to be downloaded and copy the auth token from terminal)
+4) On terminal, once you are cd'd into the folder specified in step 2) with the docker files, type -> sudo docker-compose up (Wait 5 minutes for the images to be downloaded from docker hub and copy the auth token from terminal one docker-compose finishes execution)
 5) Type localhost:8888 on the browser - login to Jupyter with the auth token  from step 4- the working directory specified in Step 3 should show up in Jupyter, load the pandas project into Jupyter, with file extension .ipynmb
 6) Click Cell -> Run All
+7) Close docker with Control + C on keyboard, and docker-compose up if you want to bring it back up again. 
                          
                          Architecture and Assumptions about Design and technology tradeoffs
 
