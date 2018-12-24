@@ -1,9 +1,10 @@
 DBRS_interviewChallenge
-                                         Application Demo and Screencast
+
+                                            Application Demo and Screencast
                                          
   
 Link: https://www.youtube.com/watch?v=mxGAP-kRkGo
-I made a 15 minute screencast with audio and video to demo the project. This is a basic walkthrough of setting it up, inlcluding information on where data was cited to overall analysis of the project.  I don't talk to much about the code because there are plenty of comments describing everything.                                                        
+I made a 15 minute screencast with audio and video to demo the project. This is a basic walkthrough of setting it up, inlcluding information on where data was sources to overall analysis and insights relating to the project.  I don't talk to much about the code because there are comments describing it.   I wanted to keep the video short and concise.                                                          
                                                     
                                            
                                           Instructions to Run Application
