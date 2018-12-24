@@ -18,7 +18,7 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
 
 
                                       Instructions to Run Application on Docker-Compose
-                              (Assuming that Docker is already installed on on a Linux type OS)
+                              (Assuming that Docker is already installed on a Linux type OS)
                                      
 1) Download zip file from here: https://www.dropbox.com/s/92fwq06m974vpxp/docker.zip?dl=0 and unzip to folder in directory, which should default to 'Docker', if not paste the contents of the zip file into a folder named "Docker"
 2) CD into the 'Docker' folder on terminal or whatever folder you created.  
