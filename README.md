@@ -32,13 +32,13 @@ Aditionally, anyone from anywhere around the world with an internet connection -
 
 To get the project up and running with docker, one would have to have an OS built on top of a linux kernal - even with a linux system, Docker has to be downloaded & installed, images have to be downloaded, and commands need to be executed via command line to run the containers - even to shut down the containers!   Docker is great for microservices and deploying them - perhaps, an application built with different databases and programming languages all running independently of one another on connected ports all defined via a docker-compose yaml file, making it possibile to update one part without having to the update the other part.   
 
-With efficieny in mind, and this project being very data-science focused, I am also guessing that a data scienctist - someone who may not be familiar with docker and infrastructure code, may also want to have a look at it.  
+With efficieny in mind, and this project being very data-science focused, I am also guessing that a data scienctist - someone who may not be familiar with docker and infrastructure code, may also want to have a look at it with the least possible effort.  
 
 Google Colaboratory has an option where you can create tabbed menus, similar to a tabbed jorurnal/phonebook, making it easy to separate the code into sections by topic. This makes visual presentation and reporting much more appealing.     
 
 I tried to keep my code as minimal and short as possible.  However, I did write some extra code - only to generate graphs and do some data validation (i.e validate that the records loaded were from 2017), but nothing more than what was needed for other than those specific purposes.    
 
-Everything is setup is one Jupyter Notebook running on the cloud.    
+Everything is setup on one Jupyter Notebook running on the cloud.    
 
                                                         
                                                         Project Instructions
