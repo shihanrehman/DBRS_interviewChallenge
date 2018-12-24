@@ -19,12 +19,12 @@ https://colab.research.google.com/drive/1nQr2hnNY_9iAoU9aP6wdex1owbIbmXbv#scroll
 
                                       Instructions to Run Application on Docker-Compose
                                      
-a) Download zip file from here: https://www.dropbox.com/s/92fwq06m974vpxp/docker.zip?dl=0 and unzip to folder in directory, which should default to 'Docker', if not paste the contents of the zip file into a folder named "Docker"
-b) CD into 'Docker' on terminal
-c) On the docker-compose file, under 'volumes', change the working directory before the ":", specify locally on your computer - can be any path, where to map the current working directory to for your Jupyter projects.  
-d) On terminal, type -> sudo docker-compose up (Wait 5 minutes for the images to be downloaded and copy the auth token from terminal)
-e) Type localhost:8888 on the browser - login to Jupyter with the auth token  from step 4- the working directory specified in Step 3 should show up in Jupyter, load the pandas project into Jupyter.
-f) Click Cell -> Run All
+1) Download zip file from here: https://www.dropbox.com/s/92fwq06m974vpxp/docker.zip?dl=0 and unzip to folder in directory, which should default to 'Docker', if not paste the contents of the zip file into a folder named "Docker"
+2) CD into 'Docker' on terminal
+3) On the docker-compose file, under 'volumes', change the working directory before the ":", specify locally on your computer - can be any path, where to map the current working directory to for your Jupyter projects.  
+4) On terminal, type -> sudo docker-compose up (Wait 5 minutes for the images to be downloaded and copy the auth token from terminal)
+5) Type localhost:8888 on the browser - login to Jupyter with the auth token  from step 4- the working directory specified in Step 3 should show up in Jupyter, load the pandas project into Jupyter.
+6) Click Cell -> Run All
                          
                          Architecture and Assumptions about Design and technology tradeoffs
 
